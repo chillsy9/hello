@@ -4,18 +4,20 @@ body {
 
 .navbar {
   overflow: hidden;
-  background-color: #white
-;
+  background-color: #white;
+  padding: 14px 16px;
 }
 
-.navbar a {
+.navbar a,
+.navbar .nav-item{
+  min-width: 100px;
   float: left;
+
   font-size: 16px;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1px 16px;
   text-decoration: none;
-  width: 14.28%;
 }
 
 
@@ -77,3 +79,22 @@ h1   {color:  #4b84e3;
       text-align: center;
       }
 p    {color: black;}
+
+nav {
+  background-color: #55828B;
+}
+
+.navbar .nav-item:hover .nav-link,
+.navbar .navbar-brand:hover  {
+  background-color: #F6F7EB;
+  justify-content: center;
+}
+
+.carousel {
+  width:600px;
+  height:200px;
+}
+
+.navbar  {
+  background-color: #55828B;
+}
