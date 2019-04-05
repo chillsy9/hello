@@ -12,15 +12,12 @@ body {
 .navbar .nav-item{
   min-width: 100px;
   float: left;
-
   font-size: 16px;
   color: black;
   text-align: center;
   padding: 1px 16px;
   text-decoration: none;
 }
-
-
 
 .dropdown {
   float: left;
@@ -72,7 +69,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body {background-color: white;}
+body {background-color: #F6F7EB;}
 h1   {color:  #4b84e3;
       font-family: Paladino;
       font-size: 300%;
@@ -87,14 +84,29 @@ nav {
 .navbar .nav-item:hover .nav-link,
 .navbar .navbar-brand:hover  {
   background-color: #F6F7EB;
-  justify-content: center;
 }
 
 .carousel {
   width:600px;
   height:200px;
+  margin:auto;
 }
 
 .navbar  {
   background-color: #55828B;
+}
+
+h2 { font-family: "garamond"; font-size: 50px; color: #080F0F; font-weight:"bold";
+}
+
+#aboutustext { font-family: "garamond"; font-size: 25px; color: #080F0F
+
+}
+
+#colFormLabelSm {
+  border: 2px;
+  border-radius: 4px;
+}
+#factimage3 {
+  width: 250px
 }
