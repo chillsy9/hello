@@ -8,9 +8,9 @@ body {
   padding: 14px 16px;
 }
 
+
 .navbar a,
 .navbar .nav-item{
-  min-width: 100px;
   float: left;
   font-size: 16px;
   color: black;
@@ -56,8 +56,8 @@ body {
 
 #factimage3
 {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: calc(100% / 2.6);
+  margin-right: calc(100% / 2.6);
 }
 
 #factimage2
@@ -251,7 +251,7 @@ h2 { font-family: "garamond"; font-size: 50px; color: #080F0F; font-weight:"bold
 }
 
 #aboutustext {
-  font-family: "garamond"; font-size: 25px; color: #080F0F
+  font-family: "garamond"; font-size: 25px; color: #080F0F;
 }
 
 #colFormLabelSm {
